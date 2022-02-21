@@ -54,6 +54,9 @@ class Redis extends Module
 			}
 		}
 
+		if (!empty($arguments[0]) and $config['prefix'] ?? null)
+			$arguments[0] = $config['prefix'] . ':' . $arguments[0];
+
 		return call_user_func_array([$this->getClient(), $name], $arguments);
 	}
 }
