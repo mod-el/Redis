@@ -27,8 +27,8 @@ $config = [
 			'cluster' => ['label' => 'Cluster (y/n)', 'default' => 0],
 			'host' => ['label' => 'Host', 'default' => '127.0.0.1'],
 			'port' => ['label' => 'Port', 'default' => 6379],
-			'password' => ['label' => 'Password', ' defalut' => null],
-			'prefix' => ['label' => 'Prefix', ' defalut' => null],
+			'password' => ['label' => 'Password', ' default' => null],
+			'prefix' => ['label' => 'Prefix', ' default' => null],
 		];
 	}
 }
